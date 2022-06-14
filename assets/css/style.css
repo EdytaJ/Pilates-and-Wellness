@@ -17,7 +17,7 @@ body {
     background-color: lightcoral;
 }
 
-img, picture {
-  display: block;
-  max-width: 100%;
+.navbar__logo-image {
+background-color: transparent;
+    
 }
