@@ -1,2 +1,23 @@
 /* FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Satisfy&display=swap');
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: Quattrocento Sans, sans-serif;
+    color: black;
+    font-weight: 400;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    background-color: lightcoral;
+}
+
+img, picture {
+  display: block;
+  max-width: 100%;
+}
