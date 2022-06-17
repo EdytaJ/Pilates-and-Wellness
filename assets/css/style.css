@@ -1,17 +1,6 @@
 /* FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Satisfy&display=swap');
 
-/*! === VARIABLES === */
-:root {
-  --light-clr: #fff;
-  --light-clr-2: #BED2C9;
-  --light-clr-3: #E1E7DD;
-  --dark-clr: #2e2e2e;
-  --body-font-clr: #bdbdbd;
-  --body-bg-clr: #222222;
-  --title-font: "Bebas Neue", cursive;
-  --body-font: "Poppins", sans-serif;
-}
 
 /*! === BASE === */
 *,
@@ -72,3 +61,84 @@ input, button {
   box-shadow: 0 1px 0 #64c8ff1a;
 
 }
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity .25s;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.btn:focus {
+  opacity: .8;
+}
+
+.btn--action {
+ font-size: 1.8rem;
+ color: green;
+ line-height: 0;
+}
+
+.btn--text {
+  left: 1px;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+}
+
+.navbar__menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  height: 100vh;
+  background-color: red;
+  transform: translateX(-26rem);
+  z-index: 999;
+  transition: transform .5s ease-in;
+
+}
+
+.navbar__menu.active {
+  transform: translateX(0);
+}
+
+.navbar.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__list-item {
+  border-bottom: 1px solid gray;
+}
+
+.navbar__list-link {
+  display: block;
+  color: gray; 
+  padding: 1rem;
+  transition: opacity .25s;
+}
+
+.navbar__list-link:hover {
+  opacity: .5s
+}
+
+.navbar__list-link:focus {
+  opacity: .5s
+}
+
+.navbar__btn-group {
+  display: flex;
+  column-gap: 1.5rem;
+  font-family: satisfy;
+}
+
+.btn--transparent {
+  color: gray;
+  border-bottom: 2px solid gray;
+}
+
+
+
