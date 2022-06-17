@@ -94,6 +94,19 @@ input, button {
   padding: 1rem 3rem;
 }
 
+.title {
+  font-family: Quattrocento Sans;
+  color: purple;
+  letter-spacing: 1px;
+  font-size: 3.6rem;
+}
+
+.title--main {
+  font-size: clamp(4.2rem, 8vw, 10rem);
+  line-height: 1.2;
+}
+
+
 .navbar__menu {
   position: absolute;
   top: 0;
@@ -147,6 +160,29 @@ input, button {
   border-bottom: 2px solid gray;
   padding: 0;
 }
+
+/* Main content */
+
+main {
+  overflow-x: hidden;
+}
+
+/* INTRO */
+.showcase {
+  padding-top: 7.4rem;
+}
+
+.showcase__container {
+  text-align: center;
+}
+
+.showcase__image {
+  display: inline-block;
+}
+
+.main-image {
+  border-radius: 38% 0% 38%;
+ }
 
 
 
