@@ -21,7 +21,7 @@ const swiper = new Swiper('.myswiper', {
     effect: 'coverflow', 
     grabCursor: true,
     centeredSlides: true,
-    slidePerView: 'auto',
+    slidesPerView: '2',
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
