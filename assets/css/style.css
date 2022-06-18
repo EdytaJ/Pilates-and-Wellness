@@ -27,6 +27,7 @@ body {
     background-color: lightcoral;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -146,11 +147,11 @@ input, button {
 }
 
 .navbar__list-link:hover {
-  opacity: .5s
+  opacity: 0.5s
 }
 
 .navbar__list-link:focus {
-  opacity: .5s
+  opacity: 0.5s
 }
 
 .navbar__btn-group {
@@ -213,5 +214,42 @@ main {
   object-fit: cover;
 }
 
+/* Classes section*/
 
+.classes {
+  background-color: beige;
+  padding-block: 7.4rem;
+}
 
+.classes__container {
+  display: grid;
+}
+
+.classes__image-wrapper {
+  margin-bottom: 6%;
+}
+
+.classes__image-wrapper img {
+  margin-inline: auto;
+}
+
+.classes__list {
+  display: grid;
+  gap: 5%;
+}
+
+.classes__list-divider {
+  display: grid;
+  gap: 5rem;
+}
+
+.classes__list-icon {
+  display: inline-block;
+  font-size: 3.6rem;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
+.classes__list-title {
+  margin-bottom: 1rem;
+}
