@@ -186,7 +186,8 @@ main {
 }
 
 .main-image {
-  border-radius: 38% 0% 38%;
+  border-radius: 40%;
+  width: 70%;
  }
 
  /* ABOUT*/
