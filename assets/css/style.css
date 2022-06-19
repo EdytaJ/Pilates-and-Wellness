@@ -293,11 +293,82 @@ z-index: 5;
   padding-top: 3%;
 }
 
+/*SIGN UP FORM*/
+
+.pop__up-form {
+  height: 300px;
+}
+.openBtn {
+  display: flex;
+  justify-content: left;
+}
+
+.openButton {
+  border: none;
+  border-radius: 5px;
+  background-color: #1c87c9;
+  color: purple;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+.signinPopup {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.formOpen {
+  display: none;
+  position: fixed;
+  left: 45%;
+  top: 5%;
+  transform: translate(-50%, 5%);
+  border: 3px solid #999999;
+  z-index: 9;
+}
+
+.formContainer {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #fff;
+}
+.formContainer input[type=text],
+.formContainer input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #eee;
+}
+.formContainer input[type=text]:focus,
+.formContainer input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.formContainer .btn {
+  padding: 12px 20px;
+  border: none;
+  background-color: #8ebf42;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+.formContainer .cancel {
+  background-color: #cc0000;
+}
+.formContainer .btn:hover,
+.openButton:hover {
+  opacity: 1;
+}
+
+
 /*FOOTER*/
 
 .footer {
   background-color: lightblue;
-  padding-top: 10rem;
+  padding-top: 7rem;
   padding-bottom: 3rem;
 }
 
