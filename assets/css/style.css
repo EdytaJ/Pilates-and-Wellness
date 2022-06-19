@@ -295,12 +295,15 @@ z-index: 5;
 
 /*SIGN UP FORM*/
 
-.pop__up-form {
-  height: 300px;
+.form__intro {
+ font-size: 20px;
+text-align: center;
+
 }
 .openBtn {
   display: flex;
-  justify-content: left;
+  padding-left: 46%;
+  padding-top: 1%;
 }
 
 .openButton {
@@ -308,7 +311,7 @@ z-index: 5;
   border-radius: 5px;
   background-color: #1c87c9;
   color: purple;
-  padding: 14px 20px;
+  padding: 2px 25px;
   cursor: pointer;
 }
 
@@ -367,6 +370,10 @@ z-index: 5;
 
 .card__container {
   perspective: 800px;
+  justify-content: center;
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 2%
   
 }
 .card {
