@@ -34,4 +34,4 @@ const swiper = new Swiper('.myswiper', {
         el: '.swiper-pagination'
     }
 }
-)
+);
