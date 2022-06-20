@@ -64,6 +64,7 @@ input, button {
 }
 
 .navbar {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -77,6 +78,10 @@ input, button {
 
 .btn:hover {
   opacity: .8;
+}
+
+.fas:hover:before {
+  content: '\f00d';
 }
 
 .btn:focus {
@@ -118,8 +123,8 @@ input, button {
   position: absolute;
   top: 0;
   left: 0;
-  width: 12rem;
-  height: 18vh;
+  width: 25rem;
+  height: 100vh;
   background-color: #C9BB9F;
   transform: translateX(-26rem);
   z-index: 999;
@@ -159,7 +164,7 @@ input, button {
   display: flex;
   column-gap: 2.5rem;
   font-family: satisfy;
-  float: left;
+  float: right;
 }
 
 .btn--transparent {
@@ -447,3 +452,34 @@ text-align: center;
   justify-content: center;
 }
 
+/*MEDIA QUERIES*/
+
+@media (min-width: 796px) {
+
+  .container {
+    max-width: 1228px;
+  }
+
+  #menu-toggler {
+    display: none;
+  }
+.navbar__menu {
+  position: initial;
+  width: initial;
+  height: initial;
+  background-color: transparent;
+  transform: initial;
+ transition: none;
+}
+
+.navbar__list {
+  flex-direction: row;
+  gap: 1rem
+ 
+}
+.navbar__list-item {
+  border-bottom: none;
+
+}
+
+}
