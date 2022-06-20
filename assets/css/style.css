@@ -136,7 +136,7 @@ input, button {
   transform: translateX(0);
 }
 
-.navbar.list {
+.navbar__list {
   display: flex;
   flex-direction: column;
 }
