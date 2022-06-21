@@ -359,15 +359,15 @@ text-align: center;
 .formContainer .btn {
   padding: 12px 20px;
   border: none;
-  background-color: #8ebf42;
-  color: #fff;
+  background-color: #f2bcc0;
+  color: black;
   cursor: pointer;
   width: 100%;
   margin-bottom: 15px;
   opacity: 0.8;
 }
 .formContainer .cancel {
-  background-color: #cc0000;
+  background-color: #f2d3bc;
 }
 .formContainer .btn:hover,
 .openButton:hover {
