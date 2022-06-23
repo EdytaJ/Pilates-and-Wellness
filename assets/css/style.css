@@ -107,6 +107,7 @@ input, button {
   letter-spacing: 1px;
   font-size: 25px;
  text-align: center;
+ padding-top: 2%
 }
 
 .title--main {
@@ -211,6 +212,8 @@ main {
 
  p {
   font-size: 15px;
+  line-height: 25px;
+  padding-top: 3%
  }
 
  .about__metadata {
@@ -245,6 +248,7 @@ main {
 
 .classes__image {
 margin-inline: auto;
+padding-inline: 38%;
 }
 
 .classes__list {
@@ -266,9 +270,6 @@ margin-inline: auto;
   margin-bottom: 3rem;
 }
 
-.classes__list-title {
-  margin-bottom: 1rem;
-}
 
 .classes-metadata__description {
   padding-bottom: 4%;
@@ -279,6 +280,10 @@ margin-inline: auto;
   margin-inline: auto;
   padding-inline: 18px;
 }
+
+.classes__list-item:last-child {
+  padding-bottom: 5%
+ }
 
 /*SIGN UP FORM*/
 
@@ -322,6 +327,11 @@ margin: 5%;
   transform: translate(-50%, 5%);
   border: 3px solid #999999;
   z-index: 9;
+}
+
+#vinyasa-tick, #ashtanga-tick, #poweryoga-tick {
+  display: inline-block;
+accent-color: #f2bcc0;
 }
 
 .formContainer {
