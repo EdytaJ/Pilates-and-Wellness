@@ -247,8 +247,8 @@ main {
 }
 
 .classes__image {
-margin-inline: auto;
-padding-inline: 38%;
+  display: flex;
+  justify-content: center;
 }
 
 .classes__list {
@@ -409,8 +409,8 @@ accent-color: #f2bcc0;
 
 .footer {
   background-color: #D4B2A7;
-  padding-top: 6rem;
-  padding-bottom: 3rem;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .footer__group {
@@ -422,18 +422,24 @@ accent-color: #f2bcc0;
   display: flex;
   gap: 2rem;
   justify-content: center;
+  padding: 1%;
 }
 
 .footer__list-link {
-  color: aqua;
+  color: black;
   font-size: 1.8rem;
   width: 4rem;
   height: 4rem;
-  border: 1px solid goldenrod;
+  border: 1px solid #EDE9E3;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer__main {
+  text-align: center;
+  padding: 0;
 }
 
 /*MEDIA QUERIES*/
