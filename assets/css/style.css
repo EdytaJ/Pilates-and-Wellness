@@ -67,6 +67,7 @@ input, button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  float: right;
 }
 
 
@@ -125,7 +126,7 @@ input, button {
   left: 0;
   width: 25rem;
   height: 100vh;
-  background-color: #C97D68;
+  background-color: #EDE9E3;
   transform: translateX(-26rem);
   z-index: 999;
   transition: transform .5s ease-in;
@@ -463,7 +464,7 @@ text-align: center;
 .navbar__list {
   flex-direction: row;
   gap: 1rem;
-  font-size: 15px;
+  font-size: 17px;
  
 }
 .navbar__list-item {
