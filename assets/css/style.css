@@ -249,7 +249,9 @@ margin-inline: auto;
 
 .classes__list {
   display: grid;
-  gap: 5%;
+  gap: 2%;
+  margin-inline: auto;
+  padding-inline: 18px;
 }
 
 .classes__list-divider {
@@ -271,6 +273,11 @@ margin-inline: auto;
 .classes-metadata__description {
   padding-bottom: 4%;
   padding-top: 3%;
+}
+
+.classes__list-item {
+  margin-inline: auto;
+  padding-inline: 18px;
 }
 
 /*SIGN UP FORM*/
