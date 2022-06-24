@@ -480,4 +480,9 @@ accent-color: #f2bcc0;
 .classes__list-item:last-child {
   padding-bottom: 25%;
  }
+
+ .showcase__title {
+  padding-top: 25%;
+  line-height: 1.2;
+ }
 }
