@@ -4,7 +4,8 @@ const headerScroll = () => {
 };
 window.addEventListener('scroll', headerScroll);
 
-/* Open and close manu on on icon click*/
+
+/* Open and close manu on an icon click*/
 const menuToggler = document.querySelector('#menu-toggler');
 const navbarMenu = document.querySelector('.navbar__menu');
 const toggleMenu = () => {
