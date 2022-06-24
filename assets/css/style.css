@@ -291,7 +291,7 @@ main {
 .form__intro {
  font-size: 20px;
 text-align: center;
-margin: 5%;
+margin: 3%;
 
 }
 
@@ -301,8 +301,7 @@ margin: 5%;
  }
 .openBtn {
   display: flex;
-  padding-left: 46%;
-  margin-bottom: 5%;
+ justify-content: center;
 }
 
 .openButton {
@@ -374,11 +373,10 @@ accent-color: #f2bcc0;
 /* FLIPCARD*/
 
 .card__container {
-  perspective: 800px;
   justify-content: center;
   display: flex;
-  padding-top: 3%;
-  padding-bottom: 2%
+  padding-top: 2%;
+  padding-bottom: 4%;
   
 }
 .card {
@@ -423,7 +421,7 @@ accent-color: #f2bcc0;
   display: flex;
   gap: 2rem;
   justify-content: center;
-  padding: 1%;
+  padding: 2%;
 }
 
 .footer__list-link {
