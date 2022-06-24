@@ -283,7 +283,7 @@ main {
 }
 
 .classes__list-item:last-child {
-  padding-bottom: 5%
+  padding-bottom: 8%
  }
 
 /*SIGN UP FORM*/
@@ -472,4 +472,12 @@ accent-color: #f2bcc0;
 
 }
 
+}
+
+@media (min-width: 320px) {
+
+  
+.classes__list-item:last-child {
+  padding-bottom: 25%;
+ }
 }
