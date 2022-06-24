@@ -51,8 +51,6 @@ input, button {
   position: fixed;
   z-index: 999;
   width: 100%;
-  padding-top: 30px;
-  padding-bottom: 10px;
   background-color: #D4B2A7;
   transition: padding .25s;
 }
@@ -481,8 +479,4 @@ accent-color: #f2bcc0;
   padding-bottom: 25%;
  }
 
- .showcase__title {
-  padding-top: 25%;
-  line-height: 1.2;
- }
 }
