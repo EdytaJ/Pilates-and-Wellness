@@ -136,6 +136,7 @@ input, button {
 
 .navbar__menu.active {
   transform: translateX(0);
+  font-size: 15px;
 }
 
 .navbar__list {
@@ -150,7 +151,7 @@ input, button {
 .navbar__list-link {
   display: block;
   color: black; 
-  padding: 1rem;
+  padding: 2rem;
   transition: opacity .25s;
 }
 
