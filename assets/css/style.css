@@ -317,21 +317,25 @@ margin: 3%;
 
 .signinPopup {
   position: relative;
-  text-align: center;
   width: 100%;
 }
 .formOpen {
   display: none;
   position: fixed;
-  left: 45%;
-  top: 5%;
+  left: 50%;
+  top: 7%;
   transform: translate(-50%, 5%);
   border: 3px solid #999999;
   z-index: 9;
 }
 
-#vinyasa-tick, #ashtanga-tick, #poweryoga-tick {
-  display: inline-block;
+.class__choice {
+  text-align: center;
+  border-bottom: solid #f2bcc0;
+ }
+
+#vinyasa-tick, #ashtanga-tick, #poweryoga-tick, #ashtangasun, #poweryogaevening-tick {
+  display: flex;
 accent-color: #f2bcc0;
 }
 
