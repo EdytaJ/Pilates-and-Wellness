@@ -95,7 +95,7 @@ input, button {
 
 .btn--text {
   left: 1px;
-  font-size: 2rem;
+  font-size: 25px;
   padding: 1rem 3rem;
 }
 
@@ -149,7 +149,7 @@ input, button {
 .navbar__list-link {
   display: block;
   color: black; 
-  padding: 2rem;
+  padding: 25px;
   transition: opacity .25s;
 }
 
@@ -170,7 +170,7 @@ input, button {
 
 .btn--transparent {
   color: black;
-  padding: 0px;
+  padding: 10px;
 }
 
 /* Main content */
@@ -431,8 +431,8 @@ accent-color: #f2bcc0;
 .footer__list-link {
   color: black;
   font-size: 1.8rem;
-  width: 4rem;
-  height: 4rem;
+  width: 25px;
+  height: 25px;
   border: 1px solid #EDE9E3;
   border-radius: 50%;
   display: flex;
