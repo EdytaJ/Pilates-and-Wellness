@@ -12,9 +12,9 @@
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-  }
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 
 body {
     font-family: Quattrocento Sans, sans-serif;
@@ -154,11 +154,11 @@ input, button {
 }
 
 .navbar__list-link:hover {
-  opacity: 0.5s
+  opacity: 0.5;
 }
 
 .navbar__list-link:focus {
-  opacity: 0.5s
+  opacity: 0.5;
 }
 
 .navbar__btn-group {
@@ -170,7 +170,7 @@ input, button {
 
 .btn--transparent {
   color: black;
-  padding: 1;
+  padding: 0px;
 }
 
 /* Main content */
