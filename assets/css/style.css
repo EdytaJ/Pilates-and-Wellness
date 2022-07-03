@@ -27,6 +27,10 @@ body {
     background-color: #EDE9E3;
 }
 
+h4 {
+  font-family: Satisfy, sans-serif;
+}
+
 
 a {
   text-decoration: none;
@@ -410,7 +414,8 @@ accent-color: #f2bcc0;
 
 .thank__you-card {
   text-align: center;
-  font-size: 80px;
+  font-size: 52px;
+  font-family: Satisfy, sans-serif;
 }
 
 .personal-greeting {
@@ -430,8 +435,6 @@ accent-color: #f2bcc0;
   display: flex;
   justify-content: center;
  }
-}
-
 
 
 /*FOOTER*/
