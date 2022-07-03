@@ -163,29 +163,39 @@
       </div>
     <div class="signinPopup">
         <div class="formOpen" id="signupForm">
-          <form action="https://formdump.codeinstitute.net/" class="formContainer">
-            <h2 class="class__choice">Choose a class</h2>
-            <label for="vinyasa-tick"><b>Vinyasa</b></label> <input id="vinyasa-tick" name="vinyasa" type="checkbox"> 
-            <label for="ashtanga-tick"><b>Ashtanga Saturday 7PM</b></label> <input id="ashtanga-tick" name="ashtanga" type="checkbox"> 
-            <label for="ashtangasun"><b>Ashtanga Sunday 7PM</b></label> <input id="ashtangasun" name="ashtangasun" type="checkbox"> 
-            <label for="poweryoga-tick"><b>Power Yoga Wednesday 9AM</b></label> <input id="poweryoga-tick" name="poweryoga" type="checkbox">
-            <label for="poweryogaevening-tick"><b>Power Yoga Wednesday 7AM</b></label> <input id="poweryogaevening-tick" name="poweryoga" type="checkbox">
-            <br>
-            <label for="email"><strong>E-mail</strong></label>
-            <input type="text" id="email" placeholder="Your Email" name="email" required>
-            <label for="password">
-              <strong>Password</strong>
-            </label>
-           
-            <button type="submit" class="btn">COUNT ME IN!</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-          </form>
+            <div class="formContainer">
+                <h2 class="class__choice">Choose a class</h2>
+                <label for="vinyasa-tick"><b>Vinyasa</b></label> <input id="vinyasa-tick" name="vinyasa" type="checkbox"> 
+                <label for="ashtanga-tick"><b>Ashtanga Saturday 7PM</b></label> <input id="ashtanga-tick" name="ashtanga" type="checkbox"> 
+                <label for="ashtangasun"><b>Ashtanga Sunday 7PM</b></label> <input id="ashtangasun" name="ashtangasun" type="checkbox"> 
+                <label for="poweryoga-tick"><b>Power Yoga Wednesday 9AM</b></label> <input id="poweryoga-tick" name="poweryoga" type="checkbox">
+                <label for="poweryogaevening-tick"><b>Power Yoga Wednesday 7AM</b></label> <input id="poweryogaevening-tick" name="poweryoga" type="checkbox">
+                <br>
+    <form>
+                <div class="remember">
+                 
+                 <label for="entername"><strong>Enter your name:</strong></label>
+                <input type="text" id="entername" placeholder="Your name" name="name" required>
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="text" id="email" placeholder="Your Email" name="email" required>
+               
+                <a href="thankyou.html" type="submit" class="btn" id="submitname">COUNT ME IN!</a>
+            </div>
+            <div class="forget">
+                
+                <a href="thankyou.html" type="submit" class="btn" id="forgetname" onclick="closeForm()">CANCEL</a>
+               
+            </div>
+        </form>  
         </div>
-      </div>
+            </div>
+          </div>
+        </form>
+    
       <div class="card__container">
         <div class="card">
-                   <img src="assets/images/flipcard23.jpg" alt="" class="flip__card"> 
-                   <img src="assets/images/flipcard25.jpg" alt="" class="flip__card"> 
+                   <img src="assets/images/flipcard23.jpg" alt="Warrior Pose with backbend" class="flip__card"> 
+                   <img src="assets/images/flipcard25.jpg" alt="Chair picture with sunlight and quote" class="flip__card"> 
                </div>
     </div>
 </section>
