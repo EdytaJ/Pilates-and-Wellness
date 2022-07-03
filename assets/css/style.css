@@ -406,6 +406,33 @@ accent-color: #f2bcc0;
   transform: rotate3d(1,1,0, 180deg);
 }
 
+/* THANK YOU PAGE*/
+
+.thank__you-card {
+  text-align: center;
+  font-size: 80px;
+}
+
+.personal-greeting {
+ text-align: center;
+ font-size: 25px;
+ padding-top: 10%
+}
+
+#thank__you-motto {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.back__home-button {
+  display: flex;
+  justify-content: center;
+ }
+}
+
+
 
 /*FOOTER*/
 
