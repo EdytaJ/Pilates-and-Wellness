@@ -212,7 +212,7 @@ main {
  p {
   font-size: 15px;
   line-height: 25px;
-  padding-top: 3%
+  padding-top: 3%;
  }
 
  .about__metadata {
@@ -476,7 +476,19 @@ accent-color: #f2bcc0;
 
 }
 
+.classes__list {
+  padding-inline: 50px;
+ }
+
 }
+
+
+@media (max-width: 795px ) {
+
+  .formContainer {
+   width: 250px;
+  }
+ }
 
 
 
