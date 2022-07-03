@@ -416,6 +416,7 @@ accent-color: #f2bcc0;
   text-align: center;
   font-size: 52px;
   font-family: Satisfy, sans-serif;
+  padding-top: 10%;
 }
 
 .personal-greeting {
@@ -434,6 +435,7 @@ accent-color: #f2bcc0;
 .back__home-button {
   display: flex;
   justify-content: center;
+  padding-top: 7%;
  }
 
 
