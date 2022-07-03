@@ -13,7 +13,7 @@ function nameDisplayCheck() {
     rememberMe.style.display = "none";
   } else {
     h1.textContent = `Maybe next time..`;
-    greeting.textContent = `Need more inspiration? Check out my social media  or get in touch if you have any questions`;
+    greeting.textContent = `Need more inspiration? Check out my social media links below or get in touch if you have any questions`;
 
     forgetMe.style.display = "none";
     rememberMe.style.display = "block";

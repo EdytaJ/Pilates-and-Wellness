@@ -460,10 +460,10 @@ accent-color: #f2bcc0;
 .footer__list-link {
   color: black;
   font-size: 1.8rem;
-  width: 25px;
-  height: 25px;
-  border: 1px solid #EDE9E3;
-  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
