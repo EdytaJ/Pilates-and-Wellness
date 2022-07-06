@@ -49,7 +49,6 @@ function openForm() {
 /* Save name from form*/
 
   const rememberMe = document.querySelector(".remember");
-  const forgetMe = document.querySelector(".forget");
   const form = document.querySelector("form");
   const getName = document.querySelector("#entername");
   const submitBtn = document.querySelector("#submitname");
@@ -72,9 +71,6 @@ function openForm() {
     nameDisplayCheck();
   });
   
-  
-  
-  document.body.onload = nameDisplayCheck;
   
 
   

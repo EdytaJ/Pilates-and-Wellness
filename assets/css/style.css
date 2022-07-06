@@ -428,14 +428,14 @@ accent-color: #f2bcc0;
 #thank__you-motto {
   text-align: center;
   font-size: 30px;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .back__home-button {
   display: flex;
   justify-content: center;
-  padding-top: 7%;
+  padding-top: 1%;
  }
 
 
