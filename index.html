@@ -159,6 +159,7 @@
     <div class="openBtn">
         <button class="openButton" onclick="openForm()"><strong>I AM IN!</strong></button>
       </div>
+      <form action="thankyou.html">
     <div class="signinPopup">
         <div class="formOpen" id="signupForm">
             <div class="formContainer">
@@ -169,23 +170,23 @@
                 <label for="poweryoga-tick"><b>Power Yoga Wednesday 9AM</b></label> <input id="poweryoga-tick" name="poweryoga" type="checkbox">
                 <label for="poweryogaevening-tick"><b>Power Yoga Wednesday 7AM</b></label> <input id="poweryogaevening-tick" name="poweryoga" type="checkbox">
                 <br>
-    <form>
+
                 <div class="remember">
              
                  <label for="entername"><strong>Enter your name:</strong></label>
-                <input type="text" id="entername" placeholder="Your name" name="name" required/>
+                <input type="text" id="entername" placeholder="Your name" name="name" required>
                
                 <label for="email"><strong>E-mail</strong></label>
-                <input type="text" id="email" placeholder="Your Email" name="email" required/>
+                <input type="email" id="email" placeholder="Your Email" name="email" required>
+
                
-                <a href="thankyou.html" type="submit" class="btn" id="submitname">COUNT ME IN!</a>
+                 <a href="thankyou.html"><input type="button" value="COUNT ME IN!" class="btn" id="submitname"/></a>
             </div>
             <div class="forget">
                 
                 <a href="thankyou.html" type="submit" class="btn" id="forgetname" onclick="closeForm()">CANCEL</a>
                
-            </div>
-        </form>  
+            </div> 
         </div>
             </div>
           </div>
