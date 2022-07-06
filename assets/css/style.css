@@ -12,8 +12,7 @@
 }
 
 html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +24,7 @@ body {
     padding: 0px;
     line-height: 1.5;
     background-color: #EDE9E3;
+    font-size: 63%;
 }
 
 h4 {
@@ -127,7 +127,7 @@ input, button {
   position: absolute;
   top: 0;
   left: 0;
-  width: 25rem;
+  width: 15rem;
   height: 100vh;
   background-color: #EDE9E3;
   transform: translateX(-26rem);
