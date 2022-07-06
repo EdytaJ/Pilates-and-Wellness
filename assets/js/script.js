@@ -48,7 +48,6 @@ function openForm() {
 
 /* Save name from form*/
 
-  const rememberMe = document.querySelector(".remember");
   const form = document.querySelector("form");
   const getName = document.querySelector("#entername");
   const submitBtn = document.querySelector("#submitname");
