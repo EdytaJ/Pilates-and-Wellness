@@ -71,4 +71,6 @@ function openForm() {
   });
   
   
-  
+  function navigate() {
+    window.open("thankyou.html", '_parent');
+  }

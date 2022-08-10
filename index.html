@@ -159,7 +159,7 @@
     <div class="openBtn">
         <button class="openButton" onclick="openForm()"><strong>I AM IN!</strong></button>
       </div>
-      <form action="thankyou.html">
+      <form>
     <div class="signinPopup">
         <div class="formOpen" id="signupForm">
             <div class="formContainer">
@@ -180,11 +180,11 @@
                 <input type="email" id="email" placeholder="Your Email" name="email" required>
 
                
-<input type="submit" value="COUNT ME IN!" onclick="window.location.href='thankyou.html';" class="btn" id="submitname">
+<input type="button" value="COUNT ME IN!" class="btn" id="submitname" onclick="navigate()"/>
         
            
                 
-<input type="submit" class="btn" id="forgetname" onclick="window.location.href='thankyou.html';" value="CANCEL"/>
+<input type="submit" class="btn" value="CANCEL" onclick="closeForm()"/>
           
         </div>
             </div>
