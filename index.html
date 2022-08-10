@@ -159,7 +159,7 @@
     <div class="openBtn">
         <button class="openButton" onclick="openForm()"><strong>I AM IN!</strong></button>
       </div>
-      <form>
+      <form action="thankyou.html" method="POST">
     <div class="signinPopup">
         <div class="formOpen" id="signupForm">
             <div class="formContainer">
@@ -174,18 +174,14 @@
         
              
                  <label for="entername"><strong>Enter your name:</strong></label>
-                <input type="text" id="entername" placeholder="Your name" name="name" required>
+                <input type="text" id="entername" placeholder="Your name" name="name" required/>
                
                 <label for="email"><strong>E-mail</strong></label>
-                <input type="email" id="email" placeholder="Your Email" name="email" required>
-
-               
-<input type="button" value="COUNT ME IN!" class="btn" id="submitname" onclick="navigate()"/>
-        
-           
-                
+                <input type="email" id="email" placeholder="Your Email" name="email" onclick="required()"required/>
+             
+<input type="submit" value="Submit" class="btn" id="submitname" onclick="navigate()">               
 <input type="submit" class="btn" value="CANCEL" onclick="closeForm()"/>
-          
+            </div>
         </div>
             </div>
           </div>

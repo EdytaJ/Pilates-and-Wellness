@@ -70,7 +70,16 @@ function openForm() {
     nameDisplayCheck();
   });
   
-  
+
   function navigate() {
-    window.open("thankyou.html", '_parent');
-  }
+    entername = document.getElementById('entername').value;
+    email = document.getElementById('email').value;
+    if (entername == "" || email == "") {
+      alert("First name and email required");
+      exit;
+    } else {
+      window.open("thankyou.html", '_parent');
+    }
+  };
+
+
