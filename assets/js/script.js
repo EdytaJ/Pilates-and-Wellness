@@ -37,6 +37,37 @@ const swiper = new Swiper('.myswiper', {
 }
 );
 
+/* MODAL POP UP*/
+
+const infoWindow = document.querySelector('.popup');
+const overlay = document.querySelector('.overlay');
+const btnClosePopup = document.querySelector('.close_popup');
+const btnsOpenPopup = document.querySelectorAll('.show_popup');
+
+const openPopup = function () {
+  infoWindow.classList.remove('hidden');
+  overlay.classList.remove('hidden');
+};
+
+const closePopup = function () {
+  infoWindow.classList.add('hidden');
+  overlay.classList.add('hidden');
+};
+
+for (let i = 0; i < btnsOpenPopup.length; i++)
+  btnsOpenPopup[i].addEventListener('click', openPopup);
+
+btnClosePopup.addEventListener('click', closePopup);
+overlay.addEventListener('click', closePopup);
+
+document.addEventListener('keydown', function (e) {
+ 
+
+  if (e.key === 'Escape' && !popup.classList.contains('hidden')) {
+    closePopup();
+  }
+});
+
 /* Open and Close form*/
 
 function openForm() {
@@ -51,8 +82,8 @@ function openForm() {
   const form = document.querySelector("form");
   const getName = document.querySelector("#entername");
   const submitBtn = document.querySelector("#submitname");
-  const forgetBtn = document.querySelector("#forgetname");
   
+
   
   form.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -63,13 +94,6 @@ function openForm() {
   
     nameDisplayCheck();
   });
-  
-  forgetBtn.addEventListener("click", function () {
-    localStorage.removeItem("name");
-  
-    nameDisplayCheck();
-  });
-  
 
   function navigate() {
     entername = document.getElementById('entername').value;

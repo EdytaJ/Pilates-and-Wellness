@@ -290,6 +290,70 @@ h4 {
   padding-bottom: 8%
  }
 
+ /*MODAL POP UP*/
+
+ .show_popup {
+  font-size: 10px;
+  font-weight: 300;
+  padding: 1.75rem 3.4rem;
+  margin: 4rem 2rem;
+  border: none;
+  background-color: red;
+  color: #222;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.close_popup {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* POP UP WINDOW */
+.hidden {
+  display: none;
+}
+
+.popup {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+
 /*SIGN UP FORM*/
 
 .form__intro {

@@ -2,7 +2,6 @@ const h1 = document.querySelector("h1");
 const greeting = document.querySelector(".personal-greeting");
 
 
-
 function nameDisplayCheck() {
   if (localStorage.getItem("name")) {
     let name = localStorage.getItem("name");
