@@ -100,7 +100,7 @@ function openForm() {
     email = document.getElementById('email').value;
     if (entername == "" || email == "") {
       alert("First name and email required");
-      exit;
+     
     } else {
       window.open("thankyou.html", '_parent');
     }

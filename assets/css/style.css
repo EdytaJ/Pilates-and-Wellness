@@ -293,19 +293,20 @@ h4 {
  /*MODAL POP UP*/
 
  .show_popup {
-  font-size: 10px;
-  font-weight: 300;
-  padding: 1.75rem 3.4rem;
-  margin: 4rem 2rem;
+  display: flex;
+  font-size: 20px;
+  font-family: satisfy;
+  padding: 6px 25px;
+  margin: auto;
   border: none;
-  background-color: red;
+  background-color: #D4B2A7;
   color: #222;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .close_popup {
-  position: absolute;
+  position: aflex;
   top: 1.2rem;
   right: 2rem;
   font-size: 3rem;
