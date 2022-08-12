@@ -61,7 +61,7 @@ btnClosePopup.addEventListener('click', closePopup);
 overlay.addEventListener('click', closePopup);
 
 document.addEventListener('keydown', function (e) {
- 
+  // console.log(e.key);
 
   if (e.key === 'Escape' && !popup.classList.contains('hidden')) {
     closePopup();
