@@ -190,7 +190,10 @@ main {
 }
 
 /*SCROLL REVEAL*/
-
+.section__hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
 
 /* INTRO */
 .showcase {
