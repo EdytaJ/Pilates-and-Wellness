@@ -27,6 +27,12 @@ body {
     font-size: 63%;
 }
 
+.section {
+  padding: 3rem 0;
+  border-top: 1px solid #ddd;
+  transition: transform 1s, opacity 1s;
+}
+
 h4 {
   font-family: Satisfy, sans-serif;
 }
@@ -184,10 +190,7 @@ main {
 }
 
 /*SCROLL REVEAL*/
-.section__hidden {
-  opacity: 0;
-  transform: translateY(8rem);
-}
+
 
 /* INTRO */
 .showcase {
@@ -271,7 +274,6 @@ main {
 h4 {
   text-align: center;
   font-size: 15px;
-  font-style: oblique;
 }
 
 .classes__list-icon {
@@ -305,7 +307,7 @@ h4 {
   padding: 6px 25px;
   margin: auto;
   border: none;
-  background-color: #D4B2A7;
+  background-color: #DCAFAC;
   color: #222;
   border-radius: 10px;
   cursor: pointer;
@@ -328,7 +330,7 @@ h3 {
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 
