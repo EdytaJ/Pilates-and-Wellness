@@ -105,7 +105,7 @@ function openForm() {
   const form = document.querySelector("form");
   const getName = document.querySelector("#entername");
   const submitBtn = document.querySelector("#submitname");
-  const getDate = document.querySelector("#classdate")
+  const getDate = document.querySelector("#classdate");
   
 
   
@@ -135,8 +135,8 @@ function openForm() {
      
     } else {
       window.open("thankyou.html", '_parent');
-    }
-  };
+    };
+  }
 
  
 
