@@ -620,6 +620,13 @@ label {
     backdrop-filter: blur(3px);
     z-index: 5;
   }
+
+  #classdate {
+    right: 0;
+    width: 50%;
+    height: 5%;
+    border: ridge;
+  }
  }
 
 
