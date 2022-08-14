@@ -318,7 +318,7 @@ h4 {
 }
 
 .close_popup {
-  position: aflex;
+  position: flex;
   top: 1.2rem;
   right: 2rem;
   font-size: 3rem;
@@ -395,6 +395,12 @@ margin: 3%;
   
 }
 
+label {
+  display: flex;
+  margin: 2px 0;
+  padding: 1%;
+ }
+
 .signinPopup {
   position: relative;
   width: 100%;
@@ -409,7 +415,7 @@ margin: 3%;
   z-index: 9;
 }
 
-.choosedate {
+#classdate {
   right: 0;
   width: 50%;
   height: 5%;
@@ -603,6 +609,16 @@ margin: 3%;
 
   .formContainer {
    width: 250px;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    z-index: 5;
   }
  }
 

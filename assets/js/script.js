@@ -131,7 +131,7 @@ function openForm() {
    classname = document.getElementById('classname').value;
  
     if (entername == "" || email == "" || classdate =="" || classname =="") {
-      alert("First name and email required");
+      alert("Please fill in all fields");
      
     } else {
       window.open("thankyou.html", '_parent');

@@ -175,7 +175,7 @@
             <h4>SEE YOU IN SAVASANA :)</h4>
 
             <h4>Address:<br>7 Lili Avenue<br>Bournemouth<br>BH6 3BB</h4>
-            </p> 
+           
         </div>
        
 
@@ -191,14 +191,13 @@
     <div class="signinPopup">
         <div class="formOpen" id="signupForm">
             <div class="formContainer">
-                <h2 class="class__choice">Choose a date and class</h2>
-                <label for="date">Date: </label>
+                <h2 class="class__choice">Choose date and class you would like to join</h2>
+                <label for="date"><strong>Date: </strong></label>
                 <input type="date" id="classdate" class="choosedate" name="date">
-            
-               <label for="classes">CHOOSE CLASS</label>
-               
+
+                <label for="classes"><strong>Choose a class: </strong></label>
                <select name="classname" id="classname" required>
-                <option value=""></option>
+                <option hidden disabled selected value>--select an option--</option>
                 <option value="vinyasa">Vinyasa Monday 9AM</option>
                 <option value="ashtanga">Ashtanga Saturday 7PM</option>
                 <option value="ashtanga">Ashtanga Sunday 7PM</option>
@@ -210,14 +209,13 @@
                 <input type="text" id="entername" placeholder="Your name" name="name" required/>
                
                 <label for="email"><strong>E-mail</strong></label>
-                <input type="email" id="email" placeholder="Your Email" name="email" onclick="required()"required/>
+                <input type="email" id="email" placeholder="Your Email" name="email" onclick="required()" required/>
              
 <input type="submit" value="Submit" class="btn" id="submitname" onclick="navigate()">               
 <input type="submit" class="btn" id="forgetname" value="CANCEL" onclick="closeForm()"/>
             </div>
         </div>
             </div>
-          </div>
         </form>
     
       <div class="card__container">
