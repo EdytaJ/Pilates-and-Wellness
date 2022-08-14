@@ -348,7 +348,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-background-color: white;
+  background: linear-gradient(to top left, #DCAFAC,white );
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
@@ -409,14 +409,11 @@ margin: 3%;
   z-index: 9;
 }
 
-.class__choice {
-  text-align: center;
-  border-bottom: solid #f2bcc0;
- }
-
-#vinyasa-tick, #ashtanga-tick, #poweryoga-tick, #ashtangasun, #poweryogaevening-tick {
-  display: flex;
-accent-color: #f2bcc0;
+.choosedate {
+  right: 0;
+  width: 50%;
+  height: 5%;
+  border: ridge;
 }
 
 .formContainer {

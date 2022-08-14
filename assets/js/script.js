@@ -121,12 +121,17 @@ function openForm() {
   function navigate() {
     entername = document.getElementById('entername').value;
     email = document.getElementById('email').value;
-    if (entername == "" || email == "") {
+   classdate = document.getElementById('classdate').value;
+   classname = document.getElementById('classname').value;
+ 
+    if (entername == "" || email == "" || classdate =="" || classname =="") {
       alert("First name and email required");
      
     } else {
       window.open("thankyou.html", '_parent');
     }
   };
+
+ 
 
 
