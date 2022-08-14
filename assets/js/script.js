@@ -105,6 +105,7 @@ function openForm() {
   const form = document.querySelector("form");
   const getName = document.querySelector("#entername");
   const submitBtn = document.querySelector("#submitname");
+  const getDate = document.querySelector("#classdate")
   
 
   
@@ -114,9 +115,13 @@ function openForm() {
   
   submitBtn.addEventListener("click", function () {
     localStorage.setItem("name", getName.value);
-  
+   
     nameDisplayCheck();
+   
   });
+
+  /* Required fields on the form*/
+  
 
   function navigate() {
     entername = document.getElementById('entername').value;
