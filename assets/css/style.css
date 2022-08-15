@@ -156,18 +156,18 @@ input, button {
   border-bottom: 1px solid #A38F85;
 }
 
-.navbar__link {
+.navbar__list-link {
   display: block;
   color: black; 
   padding: 25px;
   transition: opacity .25s;
 }
 
-.navbar__link:hover {
+.navbar__list-link:hover {
   opacity: 0.5;
 }
 
-.navbar__link:focus {
+.navbar__list-link:focus {
   opacity: 0.5;
 }
 

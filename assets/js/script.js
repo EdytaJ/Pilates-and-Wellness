@@ -25,15 +25,14 @@ allSections.forEach(function (section) {
 /* Open and close manu on an icon click*/
 const menuToggler = document.querySelector('#menu-toggler');
 const navbarMenu = document.querySelector('.navbar__menu');
+
 const toggleMenu = () => {
     navbarMenu.classList.toggle('active');
 };
 menuToggler.addEventListener('click', toggleMenu);
 
-const linksToggleMenu = (e) => {
-    if(e.target.classList.contains('.navbar__list-link')) navbarMenu.classList.remove('active');
-};
-window.addEventListener('click', linksToggleMenu);
+
+/*SWIPER*/
 
 const swiper = new swiper('.myswiper', {
     effect: 'coverflow', 
@@ -85,7 +84,7 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
-/* Open and Close form*/
+/* Open and Close submission form*/
 
 function openForm() {
     document.getElementById("signupForm").style.display = "block";
@@ -94,7 +93,7 @@ function openForm() {
     document.getElementById("signupForm").style.display = "none";
   }
 
-/* Save name from form*/
+/* Save name and date from form*/
 
   const form = document.querySelector("form");
   const getName = document.querySelector("#entername");
