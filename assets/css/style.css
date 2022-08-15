@@ -156,18 +156,18 @@ input, button {
   border-bottom: 1px solid #A38F85;
 }
 
-.navbar__list-link {
+.navbar__link {
   display: block;
   color: black; 
   padding: 25px;
   transition: opacity .25s;
 }
 
-.navbar__list-link:hover {
+.navbar__link:hover {
   opacity: 0.5;
 }
 
-.navbar__list-link:focus {
+.navbar__link:focus {
   opacity: 0.5;
 }
 
@@ -624,9 +624,10 @@ label {
   #classdate {
     right: 0;
     width: 50%;
-    height: 5%;
+    height: 10%;
     border: ridge;
   }
+
  }
 
 

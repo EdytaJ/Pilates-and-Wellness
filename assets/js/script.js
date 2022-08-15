@@ -1,9 +1,3 @@
-const headerScroll = () => {
-    const headerElement = document.querySelector('.header');
-    this.scrollY >= 50 ? headerElement.classList.add('active') : headerElement.classList.remove('active');
-};
-window.addEventListener('scroll', headerScroll);
-
 
 /* REVEAL EACH SECTION WHEN SCROLLING*/
 
@@ -41,7 +35,7 @@ const linksToggleMenu = (e) => {
 };
 window.addEventListener('click', linksToggleMenu);
 
-const swiper = new Swiper('.myswiper', {
+const swiper = new swiper('.myswiper', {
     effect: 'coverflow', 
     grabCursor: true,
     centeredSlides: true,
@@ -86,7 +80,7 @@ overlay.addEventListener('click', closePopup);
 document.addEventListener('keydown', function (e) {
   // console.log(e.key);
 
-  if (e.key === 'Escape' && !popup.classList.contains('hidden')) {
+  if (e.key === 'Escape' && !infoWindow.classList.contains('hidden')) {
     closePopup();
   }
 });
@@ -116,8 +110,6 @@ function openForm() {
   submitBtn.addEventListener("click", function () {
     localStorage.setItem("name", getName.value);
     localStorage.setItem("date", getDate.value);
-    nameDisplayCheck();
-    dateDisplayCheck();
    
   });
 
@@ -125,17 +117,17 @@ function openForm() {
   
 
   function navigate() {
-    entername = document.getElementById('entername').value;
-    email = document.getElementById('email').value;
-   classdate = document.getElementById('classdate').value;
-   classname = document.getElementById('classname').value;
+    let entername = document.getElementById('entername').value;
+    let email = document.getElementById('email').value;
+   let classdate = document.getElementById('classdate').value;
+   let classname = document.getElementById('classname').value;
  
     if (entername == "" || email == "" || classdate =="" || classname =="") {
       alert("Please fill in all fields");
      
     } else {
       window.open("thankyou.html", '_parent');
-    };
+    }
   }
 
  
