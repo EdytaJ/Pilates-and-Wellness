@@ -34,7 +34,7 @@ menuToggler.addEventListener('click', toggleMenu);
 
 /*SWIPER*/
 
-const swiper = new swiper('.myswiper', {
+const swiper = new Swiper('.myswiper', {
     effect: 'coverflow', 
     grabCursor: true,
     centeredSlides: true,

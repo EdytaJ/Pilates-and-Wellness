@@ -40,9 +40,8 @@
 </div>
 </nav>
 </header>
-    <!--MAIN-->
 <main>
-    <!--Intro-->
+    <!--INTRO-->
     <section class="showcase" id="home">
         <div class="showcase__container container">
             <h1 class="showcase__title title">Get inspired! My name is Mila, I am your yoga teacher.</h1>
@@ -63,6 +62,8 @@
                 and classes all over the world. My strong, dynamic flows help cultivate body awareness, empower others
                 to embrace their unique gifts, and give students a deep understanding of their yoga practice.</p>
         </div>
+
+         <!--SWIPER-->
         <div class="swiper myswiper">
 <div class="swiper-wrapper">
     <div class="swiper-slide">
@@ -149,7 +150,7 @@
                      taking your practice to a whole new level.</p>
             </article>
         </div>
-
+ <!--MODAL-->
         <button class="show_popup">Click here for studio address and class essentials</button>
     
         <div class="popup hidden">
@@ -177,10 +178,10 @@
             <h4>Address:<br>7 Lili Avenue<br>Bournemouth<br>BH6 3BB</h4>
            
         </div>
-       
-
         </section>
-       
+
+      <!--SIGN UP FORM--> 
+
 <section class="pop__up-form section">
     <h2 class="form__intro">Click the button to join my classes</h2>
     
@@ -196,7 +197,7 @@
                 <input type="date" id="classdate" class="choosedate" name="date">
 
                 <label for="classname"><strong>Choose a class: </strong></label>
-               <select name="classname" id="classname" required>
+               <select name="classname" id="classname">
                 <option hidden disabled selected value>--select an option--</option>
                 <option value="vinyasa">Vinyasa Monday 9AM</option>
                 <option value="ashtanga">Ashtanga Saturday 7PM</option>
@@ -206,10 +207,10 @@
                </select>
     
                  <label for="entername"><strong>Enter your name:</strong></label>
-                <input type="text" id="entername" placeholder="Your name" name="name" required/>
+                <input type="text" id="entername" placeholder="Your name" name="name">
                
                 <label for="email"><strong>E-mail</strong></label>
-                <input type="email" id="email" placeholder="Your Email" name="email" onclick="required()" required/>
+                <input type="email" id="email" placeholder="Your Email" name="email" onclick="required()">
              
 <input type="submit" value="Submit" class="btn" id="submitname" onclick="navigate()">               
 <input type="submit" class="btn" id="forgetname" value="CANCEL" onclick="closeForm()"/>
@@ -230,7 +231,7 @@
 
     <footer class="footer">
         <div>
-            <p class="footer__main">Our Address: 7 Fisherman Park Avenue, Bournemouth, BH6 6EE</p>
+            <p class="footer__main">Address: <br> Savasana Studio<br>7 Lili Avenue<br>Bournemouth<br>BH6 3BB</p>
         </div>
         <div class="footer__group">
             <p class="footer__description">Check out my social media for more inspirational posts</p>
