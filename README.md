@@ -7,10 +7,6 @@
 * [User Experience Design](##user-experience)
 * [Technologies Used](##technologies-used)
 * [Features](##features)
-* [Screenshots](##screenshots)
-* [Setup](##setup)
-* [Usage](##usage)
-* [Project Status](##project-status)
 * [Room for Improvement](##room-for-improvement)
 * [Acknowledgements](##acknowledgements)
 * [Contact](##contact)
@@ -147,6 +143,8 @@ By using Javascript programming language, I created website with many great feat
 
 The webpage has a Homepage and 1 further page. 'Thank you' is page only visible to user who sign up for class. 
 
+- Photos - all photos on this page are from Jana Melanie, Yoga teacher and mindfulness advocate. Jana is a social media person and I reached out to her to seek permission in using her images. She agreed for her images to be used in my project. Jana is my inspiration behind the page content idea and of course image choice.
+
 - Navigation menu
 
 Page is featured with navigation menu clearly defined at the top of the page. Navigation links, once clicked, are taking user to particular section of the page.
@@ -165,39 +163,45 @@ This section is an introduction of the instructor's skills and style.
 
 - Swiper
 
-This great feature has 10 photos, involves quickly moving "swiping" 
+This great feature includes 10 photos, involves quickly moving "swiping" between images. There are 2 slides per view.. Great feature to attract attention of the users and display many images in row without overloading the page.
 
-## Screenshots
+- Join my classes section
+
+This section includes description of each class, it is in keeping with the rest of the page : clean, minimalistic look.
+
+This section contains modal window. Button 'Click here for studio address and class essentials' when clicked opens modal window. Modal contains information: everything person needs to know before attending class. The modal window has a linear background color feature. Whilst modal window is open, the background is blurred ensuring that the wiever focuses purely on the content of this window.
+
+- Join my classes section
+
+This section contains 'I am in' button that opens up sign up form. Form is made in a simple way, user can choose date, class and user must input name and email in order to successfuly sign up for a class. Once all the details are filled in (prompt window active) user will be taken to personalised 'Thank you' page.
+
+- Thank you page
+
+This is personalised page that user sees after signing up for a class. Person's name is displayed and date of class is visible for users reference.
+
+
+- Footer
+
+Footer includes studio address and links to Social Media platforms. Its simple looking and easy to navigate.
+
 ![Example screenshot](./img/screenshot.png)
 
-
-
-## Setup
-
-
-
-## Usage
-
-
-
-## Project Status
-
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+## Room for improvement
 
 Room for improvement:
-- Improvement to be done
 
+- Navigation menu is yet again something I need to work on more. I would like to ensure that navigation menu on smaller screens when visible and one of the links is clicked, navigation menu hides. This is something that I will work on in the future as it is 2nd time already that my navigation menu is not as great and accessible for user as I would like to.
 
-To do:
-- Feature to be added
-
-
+- I would like to add more features to this site: reviews section, daily tips and trick for healthy mind, maybe blog..
 
 ## Acknowledgements
 credits!
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This project was inspired by Jana Melanie, yoga teacher and my passion for fitness for wellbeing.
+- Code Institute for fantastic course content
+- [Stack Overflow](https://stackoverflow.com/)
+- [Portfolio website tutorial](https://www.youtube.com/watch?v=tcskp-ncN0I)
+- [Portfolio website tutorial](https://www.youtube.com/watch?v=6cidbUHNZRQ)
+- [W3Schools](https://www.w3schools.com/)
+- [Swiper JS Tutoria](https://www.youtube.com/watch?v=4oyj_smPAjc)
+- [Modal Window tutorial](https://www.youtube.com/watch?v=q8gv3B3DBoo)
+- Many thanks to Spencer Barriball for ongoing support!
