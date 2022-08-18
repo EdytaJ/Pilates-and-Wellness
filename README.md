@@ -6,6 +6,8 @@
 * [General Info](##general-information)
 * [User Experience Design](##user-experience)
 * [Technologies Used](##technologies-used)
+* [Testing](##testing)
+* [Deployment](##deployment)
 * [Features](##features)
 * [Room for Improvement](##room-for-improvement)
 * [Acknowledgements](##acknowledgements)
@@ -122,6 +124,32 @@ The following technologies are used in this website:
 - Google Fonts
 - Font Awesome
 - Swiperjs
+
+## Testing
+
+- Responsiveness
+
+
+- Validator Testing
+
+
+- Lighthouse Testing
+
+## Deployment
+
+For this project I've used GitHub IDE editor. Project was saved/pushed to a GitHub platform cloud using below commands:
+ - git add .
+
+ - git commit -m "message"
+
+ - git push
+
+This website is published on GitHub Pages. The following were the steps in deploying the site:
+
+- Login to GitHub and open the GitHub Repository. Within the Repository click on "Settings" on the top of menu. 
+- Go to the "Pages" section. 
+- Under the Sources click the dropdown displaying "None" and select branch to be deployed ("Main"). Click on the "Save" button. 
+- Deployed link is generated at the top in green section (Link might be displayed in blue color, this means that your link is being prepared and is not yet ready. You might need to click refresh button few times until link turns green. Deployed link is then ready.)
 
 ## Features
 
