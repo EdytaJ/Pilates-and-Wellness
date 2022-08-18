@@ -3,14 +3,14 @@
 > Live demo [https://edytaj.github.io/Yoga-teacher-portfolio/]
 
 ## Table of Contents
-* [General Info](##general-information)
-* [User Experience Design](##user-experience)
-* [Technologies Used](##technologies-used)
-* [Testing](##testing)
-* [Deployment](##deployment)
-* [Features](##features)
-* [Room for Improvement](##room-for-improvement)
-* [Acknowledgements](##acknowledgements)
+* [General Info](#general-information)
+* [User Experience Design](#user-experience)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Features](#features)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
 
 
 ## General Information
