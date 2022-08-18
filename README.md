@@ -65,20 +65,107 @@ The website I have built, is a portfolio of a yoga teacher. The main purpose of 
 
  The following are the colors used:
 
+	#000000 (Black font)
+	#EDE9E3 (Desert Storm)
+    #ddd (gray)
+	#D4B2A7 (tan)
+	#A38F85 (dark grayish orange)
+	#FEFDF8 (light yellow)
+	#DCAFAC (blossom)
+	#333 (dark charcoal)
+	#eee (very light gray)
+	#999999 (medium light gray)
+	#ffffff (light gray)
+	#f2bcc0 (very soft red)
+	#f2d3bc (very soft orange)
+
+- Typography:
+
+This portfolio website uses fonts from [Google Fonts](https://fonts.google.com/).
+
+Below is list of fonts used:
+
+Quattrocento Sans
+
+Satisfy
+
+- Layout 
+
+**Navigation Menu** - the navigation menu is fixed, user is always able to see navigation links when scrolling. It makes it easier for user to jump into desired sections.
+
+**Main Page** - The main page consist of clearly define sections. Each section has clear title that hints to user about content.
+The scroll and reveal option used (the content of next section is revealed once we are 15% into it) gives the page smooth and gentle look.
+
+**Thank you page** The 'Thank you' page is dispalyed to user once the user book in for class. It contains personalised thank you note, date of class, link to social media pages and also button to go back to homepage.
+
+**Footer** Footer has the minimlistic look: address of the studio and link to social media platforms.
+
+**Change in layout between large and small screens** The page is designed to be responsive on all screen sizes. Navigation menu is hidden and slides out from left to right when hamburger menu button is clicked on small devices, giving the page clean and esthetic look when seen on smaller screens.
 
 
 
 ## Technologies Used
-- Tech 1 
-- Tech 2 
-- Tech 3 
+
+The following technologies are used in this website:
+
+**Programming languages**
+- Javascript
+- HTML - HypertextMarkup Language
+- CSS - cascading Style Sheets
+
+**For testing**
+- JSHint
+- W3C CSS Validator
+- W3C HTML Validator
+- Mobile-Friendly Test
+- Color Contrast Accessibility Validator
+- Lighthouse Developer Tool
+
+
+**Other Technologies**
+
+- Gitpod
+- Github
+- Github Pages
+- Google Fonts
+- Font Awesome
+- Swiperjs
 
 
 ## Features
-List the ready features here:
-- Awesome feature
+
+By using Javascript programming language, I created website with many great features to make this site more dynamic for the user:
+
+- Responsive navigation menu
+- Revealing elements on scroll
+- Swiper featuring selected photos
+- Modal window
+- Submission form 
+- 'Thank you' page personalised to each client
+
+**Home page**
+
+The webpage has a Homepage and 1 further page. 'Thank you' is page only visible to user who sign up for class. 
+
+- Navigation menu
+
+Page is featured with navigation menu clearly defined at the top of the page. Navigation links, once clicked, are taking user to particular section of the page.
 
 
+
+Navigation menu is hidden on small screens, it makes the nvigation space looking cleaner and more spacious.
+
+- Header
+
+Header and main image stand out from other features. The role of the header is to introduce the teacher, the image is there to further help to make the connection between user and the instructor.
+
+- Get to know me section
+
+This section is an introduction of the instructor's skills and style.
+
+- Swiper
+
+This great feature has 10 photos, involves quickly moving "swiping" 
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)

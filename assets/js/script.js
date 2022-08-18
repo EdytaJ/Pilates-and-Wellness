@@ -16,13 +16,15 @@ allSections.forEach(function(section) {
 	sectionObserver.observe(section);
 	section.classList.add('section__hidden');
 });
-/* Open and close manu on an icon click*/
+
+/* Open and close menu on an icon click*/
 const menuToggler = document.querySelector('#menu-toggler');
 const navbarMenu = document.querySelector('.navbar__menu');
 const toggleMenu = () => {
 	navbarMenu.classList.toggle('active');
 };
 menuToggler.addEventListener('click', toggleMenu);
+
 /*SWIPER*/
 const swiper = new Swiper('.myswiper', {
 	effect: 'coverflow',

@@ -14,7 +14,7 @@ html {
 }
 body {
 	font-family: Quattrocento Sans, sans-serif;
-	color: black;
+	color: #000000;
 	font-weight: 400;
 	width: 100%;
 	margin: 0px;
@@ -350,7 +350,7 @@ label {
 .formContainer {
 	max-width: 300px;
 	padding: 20px;
-	background-color: #fff;
+	background-color: #ffffff;
 }
 .formContainer input[type=text] {
 	width: 100%;
