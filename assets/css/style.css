@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Satisfy&display=swap');
 
 
-/*! === BASE === */
+/*! === MAIN === */
 
 *, *::before, *::after {
 	margin: 0;
@@ -147,7 +147,8 @@ input, button {
 	color: black;
 	padding: 10px;
 }
-/* Main content */
+
+/* MAIN CONTENT */
 
 main {
 	overflow-x: hidden;
@@ -158,6 +159,7 @@ main {
 	opacity: 0;
 	transform: translateY(8rem);
 }
+
 /* INTRO */
 
 .showcase {
@@ -178,6 +180,7 @@ main {
 	border-radius: 40%;
 	width: 70%;
 }
+
 /* ABOUT*/
 
 .about {
@@ -205,7 +208,8 @@ p {
 .swiper-pagination-bullet-active {
 	background-color: white !important;
 }
-/* Classes section*/
+
+/* CLASSES SECTION*/
 
 .classes {
 	background-color: #FEFDF8;
@@ -244,6 +248,7 @@ h4 {
 .classes__list-item:last-child {
 	padding-bottom: 8%
 }
+
 /*MODAL POP UP*/
 
 .show_popup {
@@ -274,6 +279,7 @@ h2 {
 	font-size: 20px;
 	text-align: center;
 }
+
 /* POP UP WINDOW */
 
 .hidden {
@@ -299,6 +305,7 @@ h2 {
 	backdrop-filter: blur(3px);
 	z-index: 5;
 }
+
 /*SIGN UP FORM*/
 
 .form__intro {
@@ -391,6 +398,7 @@ label {
 .formContainer .btn:hover, .openButton:hover {
 	opacity: 1;
 }
+
 /* FLIPCARD*/
 
 .card__container {
@@ -418,6 +426,7 @@ label {
 .flip__card:nth-child(2), .card:hover {
 	transform: rotate3d(1, 1, 0, 180deg);
 }
+
 /* THANK YOU PAGE*/
 
 .thank__you-card {
@@ -442,6 +451,7 @@ label {
 	justify-content: center;
 	padding-top: 1%;
 }
+
 /*FOOTER*/
 
 .footer {
@@ -473,6 +483,7 @@ label {
 	text-align: center;
 	padding: 0;
 }
+
 /*MEDIA QUERIES*/
 
 @media (min-width: 796px) {
@@ -502,6 +513,7 @@ label {
 		padding-inline: 50px;
 	}
 }
+
 @media (max-width: 795px) {
 	.formContainer {
 		width: 250px;
