@@ -14,6 +14,8 @@
 
 
 ## General Information
+
+
 The website I have built, is a portfolio of a yoga teacher. The main purpose of this site is for user to get to know the yoga teacher, what classes does she offer, cost and times and importantly, get motivated by the beautiful images used to create this website.
 - This website intends to motivate the user to start practicing yoga and provide user with the basic but necessary information to choose a right class for their level.
 - The purpose of this project is rooted deeply in my passion. I know world is a busy place and everyone needs a little bit of time for themselves, where mind can switch off the 'thinking' mode and the body can connect with mind to create these beautiful poses in more peaceful and tranquil way. Yoga is a beautiful combination of challenging fitness routines and great training to learn quieting the busy mind.
@@ -21,10 +23,13 @@ The website I have built, is a portfolio of a yoga teacher. The main purpose of 
 
 ## User Experience Design
 
+
 ### Main goal 
+
 - Main goal of this website is to draw attention of potential students and attract them to attending classes offered by this yoga instructor. This website was also built to motivate people in general to look into yoga and healthy lifestyle.
 
 ### Target Audience
+
 - This website is for anyone who would like to get inspired, learn a bit about various classes offered by yoga teacher and potentially join the classes:
 - people of any age group interested in getting fitter
 - people interested in unwinding their minds
@@ -32,7 +37,9 @@ The website I have built, is a portfolio of a yoga teacher. The main purpose of 
 - people who enjoy working out in a groups
 
 ### User stories
+
 - As a user, I would like to get to know the teacher and their background
+
 
 **Implementation** The About me section is introducing user to the yoga teacher. User can read a little bit about instructor and get a feel of what is this teacher focusing on during classes. This section is written in very clear and easy to understand language to ensure that person reading is not intimidated by fancy terminology.
 
@@ -51,6 +58,7 @@ The website I have built, is a portfolio of a yoga teacher. The main purpose of 
 - As a user, I would like to be able to get in touch with the teacher, in case I have a questions but without booking in for an actual class.
 
  **Implementation** Navigation menu has a 'Get in touch' link that takes user to their emails, they will be able to get in touch with the instructor without booking in for a class.
+
 
  ### Design choices
 
@@ -101,6 +109,7 @@ The scroll and reveal option used (the content of next section is revealed once 
 
 ## Technologies Used
 
+
 The following technologies are used in this website:
 
 **Programming languages**
@@ -115,6 +124,7 @@ The following technologies are used in this website:
 - Mobile-Friendly Test
 - Colour Contrast Accessibility Validator
 - Lighthouse Developer Tool
+- Am I responsive
 
 **Other Technologies**
 
@@ -127,15 +137,87 @@ The following technologies are used in this website:
 
 ## Testing
 
-- Responsiveness
+
+- JSHint
+
+I used SHint a JavaScript Code Quality Tool to check for errors in Javascript. No errors were detected. 
+Result below:
+
+
+![JSHint](/assets/images/jshint1.jpg)
+
+
+![JSHint](/assets/images/jshint3.jpg)
+
+
+JSHint shows warining in my Javascript code that I was unable to solve. I decided to leave it and learn and try to understand why these warnings are there. I reaserched on line and used Stack Overflow solutions to try and fix this unfortunately I was not successful.
+
+
+![JSHint](/assets/images/jshint2.jpg)
+
+
+
+
+- Responsivenes
+
+I have also tested if my webpage is responsive on various devices: desktop, laptop, tablet and mobile
+I have used Am I responsive [ I am Responsive (https://ui.dev/amiresponsive) and result is displayed bellow. This tesy was to to check if my website is fully responsive on all screen sizes.
+
+Link used to run tests: [(https://edytaj.github.io/Yoga-teacher-portfolio/)]
+
+
+![Am I Responsive](/assets/images/Responsive.jpg)
+
 
 
 - Validator Testing
 
 
+I used W3C validators for my HTML [ Nu HTML checker (https://validator.w3.org/nu/#textarea)]
+
+
+
+![HTML Validator result](/assets/images/htmlVal1.jpg)
+
+
+
+![HTML Validator result](/assets/images/htmlVal2.jpg)
+
+and CSS tests [ W3C Css Validation Service (https://jigsaw.w3.org/css-validator/?fbclid=IwAR3BVTQVCwQOTpIjEFUCHlwFSE8kRTiH6-0XioDN8QS14uUOH3FyfCMytnc#validate_by_input)]
+
+
+
+![CSS Validator result](/assets/images/cssVal.jpg)
+
+
+
 - Lighthouse Testing
 
+I tested webpage using Lighthouse automated tool for improving the quality of web pages. Lighthouse audited performance, accessibility, progressive web apps and more. Result is attached below:
+
+
+For Desktop:
+
+
+![Lighthouse testing for desktop](/assets/images/lighthouse.jpg)
+
+
+For mobile:
+
+
+![Lighthouse testing for mobile](/assets/images/moblighthouse.jpg)
+
+
+
+- Color Contrast Accessibility Validator Results
+
+
+![Color Contrast Validator](/assets/images/colorcontrastval.jpg)
+
+
+
 ## Deployment
+
 
 For this project I've used GitHub IDE editor. Project was saved/pushed to a GitHub platform cloud using below commands:
  - git add .
@@ -151,7 +233,9 @@ This website is published on GitHub Pages. The following were the steps in deplo
 - Under the Sources click the dropdown displaying "None" and select branch to be deployed ("Main"). Click on the "Save" button. 
 - Deployed link is generated at the top in green section (Link might be displayed in blue color, this means that your link is being prepared and is not yet ready. You might need to click refresh button few times until link turns green. Deployed link is then ready.)
 
+
 ## Features
+
 
 By using Javascript programming language, I created website with many great features to make this site more dynamic for the user:
 
@@ -161,6 +245,7 @@ By using Javascript programming language, I created website with many great feat
 - Modal window
 - Submission form 
 - 'Thank you' page personalised to each client
+
 
 **Home page**
 
@@ -254,6 +339,7 @@ Room for improvement:
 - Navigation menu is yet again something I need to work on more. I would like to ensure that navigation menu on smaller screens when visible and one of the links is clicked, navigation menu hides. This is something that I will work on in the future as it is 2nd time already that my navigation menu is not as great and accessible for user as I would like to.
 
 - I would like to add more features to this site: reviews section, daily tips and trick for healthy mind, maybe blog..
+
 
 ## Acknowledgements
 credits!
