@@ -172,40 +172,80 @@ The webpage has a Homepage and 1 further page. 'Thank you' is page only visible 
 
 Page is featured with navigation menu clearly defined at the top of the page. Navigation links, once clicked, are taking user to particular section of the page.
 
+![Navigation Menu](/assets/images/Nav1.jpg)
 
 Navigation menu is hidden on small screens, it makes the nvigation space looking cleaner and more spacious.
+
+![Navigation Menu](/assets/images/Nav2.jpg)
+
 
 - Header
 
 Header and main image stand out from other features. The role of the header is to introduce the teacher, the image is there to further help to make the connection between user and the instructor.
 
+![Header](/assets/images/Title.jpg)
+
+
 - Get to know me section
 
 This section is an introduction of the instructor's skills and style.
+
+![About](/assets/images/About.jpg)
+
 
 - Swiper
 
 This great feature includes 10 photos, involves quickly moving "swiping" between images. There are 2 slides per view.. Great feature to attract attention of the users and display many images in row without overloading the page.
 
+![Swiper](/assets/images/Swiper.jpg)
+
+
 - Join my classes section
 
 This section includes description of each class, it is in keeping with the rest of the page: clean, minimalistic look.
 
+
+![Classes](/assets/images/Classes.jpg)
+
+![Classes](/assets/images/Classes2.jpg)
+
 This section contains modal window. Button 'Click here for studio address and class essentials' when clicked opens modal window. Modal contains information: everything person needs to know before attending class. The modal window has a linear background colour feature. Whilst modal window is open, the background is blurred ensuring that the viewer focuses purely on the content of this window.
+
+![Modal button](/assets/images/Modal.jpg)
+
+![Modal window](/assets/images/Modal2.jpg)
+
+
 
 - Join my classes section
 
 This section contains 'I am in' button that opens up sign up form. Form is made in a simple way, user can choose date, class and user must input name and email in order to successfully sign up for a class. Once all the details are filled in (prompt window active) user will be taken to personalised 'Thank you' page.
 
+
+![Join class button](/assets/images/Sg.jpg)
+
+- Sign Up form
+
+Form is made in a simple way, user can choose date, class and user must input name and email in order to successfully sign up for a class.
+
+![Sign Up form](/assets/images/form.jpg)
+
 - ‘Thank you’ page
 
 This is personalised page that user sees after signing up for a class. Person's name is displayed and date of class is visible for user’s reference.
+
+![Thank you form](/assets/images/Thankyouform.jpg)
+
+
 
 - Footer
 
 Footer includes studio address and links to Social Media platforms. It’s simple looking and easy to navigate.
 
-![Example screenshot](./img/screenshot.png)
+
+![Footer](/assets/images/footer.jpg)
+
+
 
 ## Room for improvement
 
